@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+* {
+    font-family: "Fredericka the Great", serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: linear-gradient(to right,#012340, #025939, #027333, #03A63C, #04D939);
+    height: 100%;
+}
+
+div.conteudo {
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    display: inline-block;
+    margin-bottom: 6px;
+    background-color: grey;
+}
+
+div:hover {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #012340;
+    text-shadow: 1px 1px 10px #012340;
+    text-align: center;
+}
+
+h2 {
+    color: #012340;
+    text-align: center; /* alinhar no centro  */
+}
+
+p {
+    text-align: justify; /* espaçamento igual a esquerda e direita */
+    text-indent: 20px;
+}

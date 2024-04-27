@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posiocionamento vertical</title>
+    <style>
+        #container {
+            position: relative;/*o elemento pai tem que ter posicionamento relativo e o filho absoluto*/
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            position: absolute;  /*deixa a posição do conteudo absoluta ao elemento pai*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);/*alinhar o centro do amarelo com o centro do roxo*/
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>

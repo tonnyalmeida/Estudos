@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("por\ do\ sol.jpg");
+  background-size: cover;
+  background-color: blue;
+  background-image: none;
+}
