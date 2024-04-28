@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
+
 <body>
     <h1>Aula Formularios</h1>
-    <form action="" method="post">
+    <form action="" method="">
+
+        <fieldset>
+            <legend>Sobre você</legend>
+            <p>
+                <label for="inome">Nome :</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="isobrenome">Sobrenome :</label>
+                <input type="text" name="sobrenome" id="isobrenome">
+            </p>
+            <p>
+                <label for="">Data de nascimento :</label>
+                <input type="date">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <p>
+                <label for="iend">Endereço :</label>
+                <input type="text" name="end" id="iend">
+            </p>
+            <p>
+                <label for="icep">CEP :</label>
+                <input type="number" name="cep" id="icep">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Documentos</legend>
+            <p>
+                <label for="rg">RG :</label>
+                <input type="number" name="rg" id="irg">
+            </p>
+            <p>
+                <label for="cpf">CPF :</label>
+                <input type="number" name="cpf" id="icpf">
+            </p>
+        </fieldset>
         <p>
-            <label for="inome">Nome : </label>
-            <input type="text" name="nome" id="inome" >
+            <input type="button" value="Enviar">
         </p>
-        <p>
-            <label for="isobrenome">Sobrenome :</label> 
-            <input type="text" name="sobrenome" id="isobrenome" >
-        </p>
-        <p>
-            <label for="">Data de nascimento:</label>
-            <input type="date">
-        </p>
-        <input type="button" value="Enviar">
     </form>
-    
+
 </body>
+
 </html>
